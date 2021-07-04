@@ -1,0 +1,20 @@
+{
+  "name": "screenshot-generator",
+  "version": "0.0.1",
+  "description": "Puppeteer",
+  "main": "bin/index.js",
+  "repository": "git@github.com:matthewzhaocc/screenshot-generator.git",
+  "author": "Matthew Z.",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "puppeteer": "^10.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  },
+  "scripts": {
+    "build": "npx tsc --project tsconfig.json",
+    "start": "node bin/index.js"
+  }
+}
